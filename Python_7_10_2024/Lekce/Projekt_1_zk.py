@@ -110,4 +110,3 @@ delky_slov = [len(slovo) for slovo in vycistena_slova]
 
 for delka in range(1,max(delky_slov)+1):
     print(f"{delka:>3}|{"*"*delky_slov.count(delka):<20}|{delky_slov.count(delka):>}")
-
